@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/soundmod">
+        <menu>
+            <item
+                android:id="@+id/nav_service"
+                android:icon="@drawable/ic_headset_black_24dp"
+                android:title="ZeroTwo Audio Control"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/kernel">
+        <menu>
+            <item
+                android:id="@+id/nav_pdesireaudio"
+                android:icon="@drawable/ic_whatshot_black_24dp"
+                android:title="@string/kernel_service_control"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/device_management">
+        <menu>
+            <item
+                android:id="@+id/universal_management"
+                android:icon="@drawable/ic_universal_black_24dp"
+                android:title="Device Settings"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="App settings"/>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/social"
+                android:icon="@drawable/ic_rss_feed_black_24dp"
+                android:title="Social Media"/>
+            <item
+                android:id="@+id/donate"
+                android:icon="@drawable/ic_monetization_on_black_24dp"
+                android:title="@string/donate"/>
+            <item
+                android:id="@+id/nav_contact_xda"
+                android:icon="@drawable/ic_question_answer_black_24dp"
+                android:title="@string/xda_thread"/>
+
+            <item
+                android:id="@+id/nav_contact_pdesire"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="@string/contact_pdesire_xda"/>
+        </menu>
+    </item>
+
+</menu>

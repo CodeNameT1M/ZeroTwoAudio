@@ -1,0 +1,18 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="projectmeli.yandereaudio.pdesire.core.yanderecore.fragments.ThemeFragment"
+        android:icon="@null"
+        android:title="@string/appearance" />
+
+    <header
+        android:fragment="projectmeli.yandereaudio.pdesire.core.yanderecore.fragments.AnalyticsFragment"
+        android:icon="@null"
+        android:title="@string/analytics" />
+
+    <header
+        android:fragment="projectmeli.yandereaudio.pdesire.core.yanderecore.fragments.AdsFragment"
+        android:icon="@null"
+        android:title="@string/ads" />
+
+</preference-headers>
